@@ -8,6 +8,7 @@ commands:
     getuuid:
         description: Get the UUID of a player by their name!
         permission: getuuid.use
+        aliases: [playeruuid]
 
 permissions:
     getuuid.use:

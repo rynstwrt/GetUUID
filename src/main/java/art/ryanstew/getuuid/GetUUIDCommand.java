@@ -40,7 +40,7 @@ public class GetUUIDCommand implements CommandExecutor
         }
 
         OfflinePlayer offlinePlayer = plugin.getServer().getOfflinePlayer(args[0]);
-        plugin.sendFormattedMessage(sender, String.format("&7That player's UUID is &a%s&7!", offlinePlayer.getUniqueId()), true);
+        plugin.sendFormattedMessage(sender, String.format("&7%s's UUID is &a%s&7!", offlinePlayer.getName(), offlinePlayer.getUniqueId()), true);
         return true;
     }
 }
