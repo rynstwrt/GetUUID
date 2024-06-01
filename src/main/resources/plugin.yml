@@ -1,0 +1,4 @@
+name: GetUUID
+version: '${version}'
+main: art.ryanstew.getuuid.GetUUID
+api-version: '1.20'
